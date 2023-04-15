@@ -35,6 +35,7 @@ const CartItem = ({ item, products, handleQuantityChange, handleOpenModal, calcu
   useEffect(() => {
     updateCartDetails();
     calculateTotalPrice();
+    console.log("git sync test");
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [quantity]);
 
